@@ -6,28 +6,37 @@
 <body>
   <form action="/madlib">
     <div>
-      Color:
+      <p>Please select something for the following topics below:</p>
+    </div>
+
+    <div>
+      <p>Color: </p>
       <input type="radio" name="color" value="magenta">
       <label>Magenta</label>
-      <input type="radio" name="shipping" value="black">
+      <input type="radio" name="color" value="black">
       <label>Black</label>
-      <input type="radio" name="shipping" value="green">
+      <input type="radio" name="color" value="green">
       <label>Green</label>
     </div>
 
     <div>
-      Noun:<input type="text" name="noun">
+      <p>Noun: </p>
+      <select name="noun">
+      <option value="unicorn">Unicorn</option>
+      <option value="puppy">Puppy</option>
+      <option value="kitten">Kitten</option>
+      </select>
     </div>
 
     <div>
-    Person:<input type="text" name="person">
+      <p>Person's Name: <input type="text" name="person"></p>
     </div>
 
     <div>
-    Adjective:<input type="text" name="adjective">
+      <p>Adjective: <input type="text" name="adjective"></p>
     </div>
 
-    <input type="submit" name="submit">
+      <p><input type="submit" name="submit"></p>
   </form>
 </body>
 </html> 
